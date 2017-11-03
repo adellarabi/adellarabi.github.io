@@ -28,6 +28,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/font-awesome.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	 <link href="animate.css" rel="stylesheet">
 	<!-- //Style Sheets -->
 	<!--web-fonts-->
 	<link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700" rel="stylesheet">
@@ -80,9 +81,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</header>
 			<!-- //header -->
 			<div class="banner-text-w3-agileits">
-				<h5>Salut, je suis </h5>
+				<h5 class="boubou">Salut, je suis </h5>
 				<h2><span>A</span>del <span>L</span>ARABI</h2>
-				<p>Etudiant et future Géotechnicien </p>
+				<p class="boubou">Etudiant et future Géotechnicien </p>
 				<div class="botton">
 					<a href="#about" class="scroll">A propos <span class="fa fa-caret-right"></span></a>
 				</div>
@@ -517,6 +518,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	<!-- //smooth scrolling -->
 	<script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+	<script src="jquery.textillate.js"></script>
+	<script src="jquery.fittext.js"></script>
+<script src="jquery.lettering.js"></script>
+	<script type="text/javascript">
+		$(function () {
+	$('.boubou').textillate();
+})
+	</script>
 	<!-- start-smoth-scrolling -->
 	<!--gallery -->
 	<script src="js/jquery.chocolat.js"></script>
